@@ -5,7 +5,7 @@ from multiprocessing import RawValue
 from os import urandom as randbytes
 from pathlib import Path
 from random import choice as randchoice
-from socket import (AF_INET, SOCK_DGRAM, SOCK_RAW, SOCK_STREAM, IPPROTO_UDP, IPPROTO_TCP, IPPROTO_IP, gethostbyname, socket)
+from socket import (AF_INET, SOCK_DGRAM, SOCK_RAW, SOCK_STREAM, IPPROTO_UDP, IPPROTO_TCP, IPPROTO_IP,IPPROTO_ICMP, gethostbyname, socket)
 from struct import pack as data_pack
 from threading import Event, Thread
 from time import sleep, time
