@@ -1,8 +1,5 @@
 # DDoS攻击脚本
 
-<em><h5 align="center">(编程语言 - Python 3)</h5></em>
-
-
 <p align="center">仅用于授权情况下验证安全产品的抗DDoS能力，请不要在未经网站所有者同意的情况下进行攻击。</p>
 
 ## 功能和攻击方式
