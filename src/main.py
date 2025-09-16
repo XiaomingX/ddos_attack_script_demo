@@ -1,9 +1,11 @@
+import random
 from socket import *
 from threading import Thread, Event
 from time import time, sleep
 from os import urandom
 from struct import pack
 from contextlib import suppress
+import urllib
 
 class Counter:
     def __init__(self, value=0):
